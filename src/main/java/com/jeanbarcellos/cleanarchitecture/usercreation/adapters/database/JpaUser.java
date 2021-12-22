@@ -1,9 +1,13 @@
 package com.jeanbarcellos.cleanarchitecture.usercreation.adapters.database;
 
-import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserDsRequestModel;
-import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserRegisterDsGateway;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.dtos.UserDsRequestModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.interfaces.UserRegisterDsGateway;
 
-public class JpaUser implements UserRegisterDsGateway {
+/**
+ * Serviço de Persistência
+ * Repository (Interface)
+ */
+class JpaUser implements UserRegisterDsGateway {
 
     final JpaUserRepository repository;
 

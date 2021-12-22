@@ -6,6 +6,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Entidade JPA
+ */
 @Entity
 @Table(name = "user")
 public class UserDataMapper {

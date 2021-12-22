@@ -1,7 +1,10 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation.usecases;
+package com.jeanbarcellos.cleanarchitecture.usercreation.usecases.dtos;
 
 import java.time.LocalDateTime;
 
+/**
+ * Estrutura de dados que transitará entre o UseCase o a Persistência
+ */
 public class UserDsRequestModel {
 
     String name;

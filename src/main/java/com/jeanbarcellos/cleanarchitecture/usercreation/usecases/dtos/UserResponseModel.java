@@ -1,4 +1,4 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation.usecases;
+package com.jeanbarcellos.cleanarchitecture.usercreation.usecases.dtos;
 
 public class UserResponseModel {
 

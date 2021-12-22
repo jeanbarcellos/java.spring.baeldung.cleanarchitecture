@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.jeanbarcellos.cleanarchitecture.usercreation.adapters.http.UserResponseFormatter;
-import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserResponseModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.dtos.UserResponseModel;
 
 class UserResponseFormatterUnitTest {
 

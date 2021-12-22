@@ -1,6 +1,6 @@
 package com.jeanbarcellos.cleanarchitecture.usercreation.domain;
 
-public class CommonUser implements User {
+class CommonUser implements User {
 
     String name;
     String password;

@@ -3,8 +3,8 @@ package com.jeanbarcellos.cleanarchitecture.usercreation.adapters.http;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserPresenter;
-import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserResponseModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.dtos.UserResponseModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.interfaces.UserPresenter;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;

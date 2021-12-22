@@ -1,4 +1,4 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation.usecases;
+package com.jeanbarcellos.cleanarchitecture.usercreation.usecases.dtos;
 
 public class UserRequestModel {
 
@@ -15,19 +15,19 @@ public class UserRequestModel {
         this.password = password;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    String getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    void setPassword(String password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 }

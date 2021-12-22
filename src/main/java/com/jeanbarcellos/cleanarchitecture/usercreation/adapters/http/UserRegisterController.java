@@ -1,8 +1,8 @@
 package com.jeanbarcellos.cleanarchitecture.usercreation.adapters.http;
 
-import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserInputBoundary;
-import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserRequestModel;
-import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserResponseModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.dtos.UserRequestModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.dtos.UserResponseModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.interfaces.UserInputBoundary;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
