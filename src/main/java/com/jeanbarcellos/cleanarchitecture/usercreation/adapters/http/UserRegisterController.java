@@ -1,4 +1,8 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.adapters.http;
+
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserInputBoundary;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserRequestModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserResponseModel;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,12 +1,15 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.adapters.http;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserPresenter;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserResponseModel;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
 
-class UserResponseFormatter implements UserPresenter {
+public class UserResponseFormatter implements UserPresenter {
 
     @Override
     public UserResponseModel prepareSuccessView(UserResponseModel response) {

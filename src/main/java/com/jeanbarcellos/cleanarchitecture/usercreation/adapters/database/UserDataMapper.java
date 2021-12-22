@@ -1,4 +1,4 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.adapters.database;
 
 import java.time.LocalDateTime;
 
@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "user")
-class UserDataMapper {
+public class UserDataMapper {
 
     @Id
     String name;
