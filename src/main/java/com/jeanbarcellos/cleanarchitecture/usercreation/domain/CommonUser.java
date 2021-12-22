@@ -1,16 +1,16 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.domain;
 
-class CommonUser implements User {
+public class CommonUser implements User {
 
     String name;
     String password;
 
-    CommonUser(String name, String password) {
+    public CommonUser(String name, String password) {
         this.name = name;
         this.password = password;
     }
 
-    CommonUser() {
+    public CommonUser() {
     }
 
     @Override

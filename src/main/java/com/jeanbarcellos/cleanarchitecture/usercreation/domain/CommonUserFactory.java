@@ -1,4 +1,4 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.domain;
 
 class CommonUserFactory implements UserFactory {
     @Override
