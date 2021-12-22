@@ -1,8 +1,8 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.usecases;
 
 import java.time.LocalDateTime;
 
-class UserDsRequestModel {
+public class UserDsRequestModel {
 
     String name;
     String password;

@@ -1,6 +1,6 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.usecases;
 
-interface UserPresenter {
+public interface UserPresenter {
     UserResponseModel prepareSuccessView(UserResponseModel user);
 
     UserResponseModel prepareFailView(String error);

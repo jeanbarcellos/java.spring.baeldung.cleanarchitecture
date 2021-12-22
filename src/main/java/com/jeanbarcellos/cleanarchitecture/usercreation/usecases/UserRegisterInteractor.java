@@ -1,8 +1,11 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.usecases;
 
 import java.time.LocalDateTime;
 
-class UserRegisterInteractor implements UserInputBoundary {
+import com.jeanbarcellos.cleanarchitecture.usercreation.domain.User;
+import com.jeanbarcellos.cleanarchitecture.usercreation.domain.UserFactory;
+
+public class UserRegisterInteractor implements UserInputBoundary {
 
     final UserRegisterDsGateway userDsGateway;
     final UserPresenter userPresenter;

@@ -1,6 +1,6 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.usecases;
 
-class UserRequestModel {
+public class UserRequestModel {
 
     String name;
     String password;
@@ -9,7 +9,7 @@ class UserRequestModel {
         super();
     }
 
-    UserRequestModel(String name, String password) {
+    public UserRequestModel(String name, String password) {
         super();
         this.name = name;
         this.password = password;

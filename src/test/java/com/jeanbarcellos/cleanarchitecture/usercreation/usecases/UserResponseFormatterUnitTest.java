@@ -1,4 +1,4 @@
-package com.jeanbarcellos.cleanarchitecture.usercreation;
+package com.jeanbarcellos.cleanarchitecture.usercreation.usecases;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -6,8 +6,8 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import org.junit.jupiter.api.Test;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.jeanbarcellos.cleanarchitecture.usercreation.UserResponseFormatter;
-import com.jeanbarcellos.cleanarchitecture.usercreation.UserResponseModel;
+import com.jeanbarcellos.cleanarchitecture.usercreation.adapters.http.UserResponseFormatter;
+import com.jeanbarcellos.cleanarchitecture.usercreation.usecases.UserResponseModel;
 
 class UserResponseFormatterUnitTest {
 
